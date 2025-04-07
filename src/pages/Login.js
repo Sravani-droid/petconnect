@@ -14,7 +14,7 @@ function Login() {
       const response = await API.post("/login", { email, password });
       setMessage(response.data.message);
 
-      // ✅ Redirect on success
+      // ✅ Redirect on success  -- 
       if (response.status === 200) {
         navigate("/dashboard");
       }
