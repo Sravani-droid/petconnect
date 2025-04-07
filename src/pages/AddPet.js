@@ -10,7 +10,7 @@ function AddPet() {
     pet_type: "Dog",
     description: "",
     image_url: "",
-    shelter_id: 1  // Replace with dynamic ID later if needed
+    shelter_id: 1  // Replace with dynamic ID later if needed  -- test
   });
 
   const [message, setMessage] = useState("");
